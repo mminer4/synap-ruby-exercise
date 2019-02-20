@@ -10,7 +10,7 @@ class Person < ApplicationRecord
     adress_object = build_address_object(address)
     organization_object = build_organization_object(organization)
 
-    @person_object = {
+    person_object = {
         id: person.id,
         name: person.name,
         job_title: person.job_title,
